@@ -20,7 +20,7 @@
 
 ## Ссылки
 
-- Доска проекта: <ссылка на GitHub Project>
+- Доска проекта: <https://github.com/users/BariNiaz/projects/1>
 - Устав проекта: [docs/charter.md](docs/charter.md)
 - Риски и качество: [реестр рисков](docs/risk-register.md), [план качества](docs/quality-plan.md), [правила работы с репозиторием](CONTRIBUTING.md)
 - План проекта: [оценки](docs/estimation.md), [календарный план](docs/schedule.md), [бюджет](docs/budget.md), [коммуникации](docs/communication-plan.md)
