@@ -34,8 +34,8 @@
 
 ## Ссылки
 
-- Доска проекта ЛР 1: <https://github.com/users/BariNiaz/projects/1>
-- Доска проекта ЛР 2: <https://github.com/users/BariNiaz/projects/3>
+- Доска проекта: <https://github.com/users/BariNiaz/projects/1>
+- Архивная доска ЛР 2: <https://github.com/users/BariNiaz/projects/3>
 - Устав проекта: [docs/charter.md](docs/charter.md)
 - Риски и качество: [реестр рисков](docs/risk-register.md), [план качества](docs/quality-plan.md), [правила работы с репозиторием](CONTRIBUTING.md)
 - Качество данных: [docs/data-quality.md](docs/data-quality.md)
