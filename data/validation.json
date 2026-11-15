@@ -1,13 +1,12 @@
 {
-  "_comment": "Правила проверки слоёв в data/processed для scripts/validate_data.py. Замените значения под свой проект.",
+  "_comment": "Правила проверки слоёв в data/processed для scripts/validate_data.py. Проверяются слои проекта SchoolMed Access (Уфа).",
   "crs": "EPSG:4326",
-  "bbox": [60.0, 56.5, 61.0, 57.1],
+  "bbox": [55.6, 54.5, 56.3, 55.0],
   "max_file_mb": 10,
   "layers": {
-    "boundary":     {"geometry": ["Polygon", "MultiPolygon"], "min_count": 1},
-    "districts":    {"geometry": ["Polygon", "MultiPolygon"], "min_count": 5,   "id": ["osm_type", "osm_id"], "required": ["name"]},
-    "water_points": {"geometry": ["Point"],                   "min_count": 50,  "id": ["osm_type", "osm_id"], "required": ["amenity"]},
-    "parks":        {"geometry": ["Polygon", "MultiPolygon"], "min_count": 20,  "id": ["osm_type", "osm_id"]},
-    "residential":  {"geometry": ["Polygon", "MultiPolygon"], "min_count": 1000, "id": ["osm_type", "osm_id"], "required": ["building"]}
+    "boundary": {"geometry": ["Polygon", "MultiPolygon"], "min_count": 1},
+    "districts": {"geometry": ["Polygon", "MultiPolygon"], "min_count": 7, "id": ["osm_type", "osm_id"], "required": ["name"]},
+    "schools": {"geometry": ["Point"], "min_count": 100, "id": ["osm_type", "osm_id"], "required": ["amenity"]},
+    "clinics": {"geometry": ["Point"], "min_count": 100, "id": ["osm_type", "osm_id"], "required": ["amenity"]}
   }
 }
