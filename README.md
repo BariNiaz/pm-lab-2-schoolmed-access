@@ -34,13 +34,16 @@
 
 ## Ссылки
 
-- Доска проекта: <https://github.com/users/BariNiaz/projects/1> <https://github.com/users/BariNiaz/projects/3>
+- Доска проекта ЛР 1: <https://github.com/users/BariNiaz/projects/1>
+- Доска проекта ЛР 2: <https://github.com/users/BariNiaz/projects/3>
 - Устав проекта: [docs/charter.md](docs/charter.md)
 - Риски и качество: [реестр рисков](docs/risk-register.md), [план качества](docs/quality-plan.md), [правила работы с репозиторием](CONTRIBUTING.md)
+- Качество данных: [docs/data-quality.md](docs/data-quality.md)
 - План проекта: [оценки](docs/estimation.md), [календарный план](docs/schedule.md), [бюджет](docs/budget.md), [коммуникации](docs/communication-plan.md)
 - Как сделать Pull Request в браузере: [docs/guides/pr-web-ui.md](docs/guides/pr-web-ui.md)
 - Данные и реестр источников: [data/README.md](data/README.md), [data/sources.md](data/sources.md)
 - Ноутбуки (запуск в Google Colab): [notebooks/README.md](notebooks/README.md)
+- Первые карты: [статичная](docs/img/analysis_v0.png), [интерактивная](docs/maps/analysis_v0.html)
 - Журнал использования ИИ: [docs/ai-usage.md](docs/ai-usage.md)
 
 ## Структура репозитория
