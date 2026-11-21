@@ -66,7 +66,7 @@ def build_graph() -> dict:
             continue
         for part in getattr(geom, "geoms", [geom]):
             coords = list(part.coords)
-            for a, b in zip(coords, coords[1:]):
+            for a, b in zip(coords, coords[1:], strict=False):
                 u, v = nid(a), nid(b)
                 if u == v:
                     continue
